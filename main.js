@@ -4,7 +4,7 @@ const getNextDate = require('./modules/getNextDate');
 const getDayOfWeek = require('./modules/getDayOfWeek');
 const getZodiacSign = require('./modules/getZodiacSign');
 const friday13th = require('./modules/friday13th');
-const getPreviousDate = require('./modules/getPreviousDate);
+const getPreviousDate = require('./modules/getPreviousDate');
 
 function main(dateUnderStudy) {
 

@@ -59,6 +59,7 @@ describe('Top-Down Integration Test for the Main Function', () => {
     const expectedOutput = {
       'Test Date': { month: 4, day: 17, year: 2024 },
       'Next Day': { month: 4, day: 18, year: 2024 },
+      'Previous Day' : {month: 4, day:16, year: 2024},
       'Day of the Week': 'Wednesday',
       'Zodiac Sign': 'Aries',
       'Last Day of Month': 30,

@@ -185,14 +185,18 @@ In the first step, draw function Integration graph (call graph) for the main fun
 
 Complete the following table:
 
-| Node | Unit Name       | Predecessors | Successors |
-|------|-----------------|--------------|------------|
-| 1    | Main            | (None)       |            |
-| 2    | isValidDate     |              |            |
-| 3    |                 |              |            |
-| 4    |                 |              |            |
-
-...
+| Node | Unit Name       | Predecessors | Successors   |
+|------|-----------------|--------------|------------  |
+| 1    | Main            | (None)       | 2,3,4,5,6,7,8|
+| 2    | isValidDate     |   1          |      7       |
+| 3    | getNextDate     |   1          |      7       |
+| 4    | getPreviousDate |   1          |       7      |
+| 5    | getDayOfWeek    |   1,9        |      /       |
+| 6    | getZodiacSign   |   1          |      /       |
+| 7    | lastDayOfMonth  | 1,2,3,4      |     10       |
+| 8    | friday13th      | 1            |      9       |
+| 9    | isFriday        | 8            |      5       |
+| 10   | isLeap          | 7            |      /       |
 
 
 ## Requirement 4, Find the MM-Complexity (20 points)
