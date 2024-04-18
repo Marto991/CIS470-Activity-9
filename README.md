@@ -1,3 +1,35 @@
+# Submission
+
+## Part 1:
+See code for other changes
+
+<img src="./img/Untitled Diagram-Page-1.drawio.png" width="300">
+
+## Part 2:
+
+<img src="./img/Untitled Diagram-Page-2.drawio.png" width="300">
+
+## Part 3:
+
+| Node | Unit Name       | Predecessors | Successors   |
+|------|-----------------|--------------|------------  |
+| 1    | Main            | (None)       | 2,3,4,5,6,7,8|
+| 2    | isValidDate     |   1          |      7       |
+| 3    | getNextDate     |   1          |      7       |
+| 4    | getPreviousDate |   1          |       7      |
+| 5    | getDayOfWeek    |   1,9        |      /       |
+| 6    | getZodiacSign   |   1          |      /       |
+| 7    | lastDayOfMonth  | 1,2,3,4      |     10       |
+| 8    | friday13th      | 1            |      9       |
+| 9    | isFriday        | 8            |      5       |
+| 10   | isLeap          | 7            |      /       |
+
+## Part 4:
+
+<img src="./img/Untitled Diagram-Page-3.drawio.png" width="300">
+
+
+
 # Integration Testing of Calendar Application
 
 ## Introduction
